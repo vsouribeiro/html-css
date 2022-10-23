@@ -1,0 +1,100 @@
+@charset "UTF8";
+
+header {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+header > p {
+    font-style: italic;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.608);
+    margin: auto;
+    padding: 0 0 20px 20px;
+    background-color: white;
+
+}
+
+nav {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    border: none;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+h2, h3 {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px 0px 10px 10px;
+
+}
+
+
+li {
+    padding-top: 10px;
+}
+img {
+    padding: 20px 40px 10px 40px; 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    color: white;
+}
+
+
+section {
+    padding-left: 40px;
+}
+
+p > a {
+    text-decoration: none;
+    color: white;
+}
+
+p > a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+
+section > a:hover {
+    background-color: white;
+}
